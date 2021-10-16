@@ -81,12 +81,12 @@
         default: () => {},
       },
     },
-    data() {
-      return {
-        colorPicker: null,
-      };
-    },
     methods: {
+      data() {
+        return {
+          colorPicker: null
+        }
+      },
       onInput(color) {
         this.$emit('input', color.hexString);
       },
