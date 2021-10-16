@@ -23,10 +23,12 @@ export default {
   components: {
       ColorPicker
   },
-  data() {
-    return {
+  methods: {
+    data() {
+      return {
         toggle: true,
         color: '',
+      }
     }
   }
 }
